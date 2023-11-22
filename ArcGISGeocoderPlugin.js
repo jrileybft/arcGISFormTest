@@ -87,7 +87,7 @@ export class ArcGISGeocoderPlugin extends LitElement {
     if (!address) return;
 
     // Replace 'YOUR_ARCGIS_API_KEY' with your actual ArcGIS API key
-    const arcgisApiKey = 'YOUR_ARCGIS_API_KEY';
+    const arcgisApiKey = 'AAPK38135e42cb394450ade05666216ca9edrCUQVoZnfHHpWbfWQj0zjdqi5izHrYGuF5M7HbFpsMnopXQBWA9xgK79kWT3hCjx';
     const arcgisUrl = `https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?f=json&singleLine=${address}&outFields=Addr_type&apiKey=${arcgisApiKey}`;
 
     fetch(arcgisUrl)
