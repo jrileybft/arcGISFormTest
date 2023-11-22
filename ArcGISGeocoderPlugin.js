@@ -24,7 +24,7 @@ const fire = <T>(
   return event;
 };
 
-@customElement('arcgis-geocoder-plugin')
+@customElement('arcgis-geocoder-plugin2')
 export class ArcGISGeocoderPlugin extends LitElement {
   @property()
   address!: string;
